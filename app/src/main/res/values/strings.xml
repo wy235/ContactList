@@ -1,0 +1,677 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">爱抽屉</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">搜索</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_base">爱抽屉</string>
+    <string name="title_activity_my_table">我的抽屉</string>
+    <string name="mission">任务　Mission</string>
+    <string name="share">分享　Share</string>
+    <string name="news">消息　News</string>
+    <string name="setting">设置　Setting</string>
+    <string name="help">帮助　Help</string>
+    <string name="title_activity_login">爱抽屉</string>
+    <string name="login_btn">登录</string>
+    <string name="save_phoneNumber">记住密码</string>
+    <string name="save_login_state">自动登录</string>
+    <string name="login_password">请输入登录密码</string>
+    <string name="photoNumber">手机号码：</string>
+    <string name="QQ">QQ:</string>
+    <string name="QQNumber">请留下您的QQ，以方便工作人员联系。</string>
+    <string name="password">登录密码：</string>
+    <string name="oldpassword">输入旧密码：</string>
+    <string name="newpassword">输入新密码：</string>
+    <string name="againpassword">确认新密码：</string>
+    <string name="plese_photoNumber">请输入手机号码</string>
+    <string name="plese_password">请输入新密码</string>
+    <string name="plese_againpassword">请再次输入新密码</string>
+    <string name="check_oldpsd">旧密码必须是6-20位</string>
+    <string name="check_bothpsw">两次新密码输入不一致</string>
+    <string name="qq_login_btn">QQ账号登录</string>
+    <string name="fogive_password">忘记密码?</string>
+    <string name="reset_user">新用户注册</string>
+    <string name="TestGetCode">获取语音验证码</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="ckeckcode">验证码：</string>
+    <string name="register_complete">完成！开启奇妙旅程</string>
+    <string name="userinfo_score">积分</string>
+    <string name="userinfo_title">个人信息</string>
+    <string name="select_title">场景模版</string>
+    <string name="userinfo_name">昵称</string>
+    <string name="userinfo_phone">手机号</string>
+    <string name="userinfo_email">Email</string>
+    <string name="userinfo_drawerNum">抽屉号</string>
+    <string name="userinfo_welcome">邀请码</string>
+    <string name="userinfo_logout">退出登录</string>
+    <string name="userinfo_compile">编辑信息</string>
+    <string name="setting_title">设置</string>
+    <string name="frends_title">旮旯</string>
+    <string name="costPoint_title">积分清单</string>
+    <string name="message_title">消息</string>
+    <string name="advice_title">意见反馈</string>
+    <string name="setting_costpoint">积分清单</string>
+    <string name="setting_safe">账户与安全</string>
+    <string name="modifypw">修改账户密码</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="setting_advice">意见反馈</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_guide">新手引导</string>
+    <string name="scan_title">一拍即存</string>
+    <string name="scan_label">扫描二维码</string>
+    <string name="scan_prompt_label">将二维码放入方框中即可扫描</string>
+    <string name="scan_failed_prompt">二维码扫描失败</string>
+    <string name="scan_local">从相册选取二维码</string>
+    <string name="userInfo_name_null">姓名/昵称不能为空</string>
+    <string name="userInfo_name_correct">请您正确输入姓名/昵称</string>
+    <string name="userInfo_phone_null">请输入您的联系电话</string>
+    <string name="userInfo_phone_correct">请您输入正确的联系电话</string>
+    <string name="userInfo_email_null">请输入您的E-mail</string>
+    <string name="userInfo_email_correct">请您输入正确E-mail</string>
+    <string name="dialog_late">请稍后...</string>
+    <string name="reminder">提示</string>
+    <string name="modify_succes">修改成功</string>
+    <string name="ensure">确定</string>
+    <string name="nagtive">取消</string>
+    <string name="loginSucces">登录成功</string>
+    <string name="logining">登录中...</string>
+    <string name="reset_text">*请勿填写过于简单的密码</string>
+    <string name="reset_text1">如有任何解决不了的问题,请联系我们的工作人员</string>
+    <string name="send_to">收件人:</string>
+    <string name="send_from">署名:</string>
+    <string name="title_activity_video_player">爱抽屉</string>
+    <string name="title_activity_advice">爱抽屉</string>
+    <string name="title_activity_cost_point">爱抽屉</string>
+    <string name="title_activity_buy_point">爱抽屉</string>
+    <string name="title_activity_message">爱抽屉</string>
+    <string name="title_activity_quickmark">爱抽屉</string>
+    <string name="title_activity_establish">爱抽屉</string>
+    <string name="title_activity_buy_code">爱抽屉</string>
+    <string name="title_activity_address">爱抽屉</string>
+    <string name="title_activity_manager_address">爱抽屉</string>
+    <string name="title_activity_default">爱抽屉</string>
+    <string name="title_activity_frends">爱抽屉</string>
+    <string name="share_text_activity_main">这款应用会让你的信息传递变得丰富、有趣和自由。</string>
+    <string name="share_title_activity_main">爱抽屉，是一个交流方式</string>
+    <string name="guide_title1_activity_main">请开启扬声器或佩戴耳机</string>
+    <string name="guide_title2_activity_main">创建抽屉,让信息传递变得丰富自由</string>
+    <string name="guide_title3_activity_main">管理自己的抽屉</string>
+    <string name="score_activity_main">积分：</string>
+    <string name="nickname_activity_main">昵称</string>
+    <string name="point_activity_main">积分</string>
+    <string name="chenk_new_app">发现新版本,是否更新?</string>
+    <string name="again_exit">再按一次退出程序</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_default">分享失败</string>
+    <string name="share_nagvtive">分享取消</string>
+    <string name="add_success">添加成功</string>
+    <string name="check_add_person">请填写收件人</string>
+    <string name="check_add_person_phone">请认真填写收件人联系电话</string>
+    <string name="check_add_email">请填写邮政编码</string>
+    <string name="check_add_address">请填写收件地址,以确保宝贝能送到您手中</string>
+    <string name="check_add_deteal_address">请填写收件详细地址,以确保宝贝能快速送到您手中</string>
+    <string name="permiss_defat">获取权限失败</string>
+    <string name="chooese_sendto">请选择您发送的联系人</string>
+    <string name="check_login1">您还未登录，请先登录。</string>
+    <string name="check_qq">请正确输入QQ号码</string>
+    <string name="check_advicetext">请输入反馈意见</string>
+    <string name="check_adviceinput">输入内容不能少于6个字</string>
+    <string name="advice_submit_success">您的意见已经提交成功。</string>
+    <string name="please_chooese_audio">请选择您的音频文件文件</string>
+    <string name="check_attach_num">附件数量不能超过9</string>
+    <string name="qrqcode_doors1">《可爱小动物》</string>
+    <string name="qrqcode_price1">4元/版(9枚)</string>
+    <string name="qrqcode_doors2">《超级英雄》</string>
+    <string name="qrqcode_price2">4元/版(9枚)</string>
+    <string name="qrqcode_doors3">《极客星球》</string>
+    <string name="qrqcode_price3">4元/版(9枚)</string>
+    <string name="qrqcode_doors4">《手写版》</string>
+    <string name="qrqcode_price4">4元/版(9枚)</string>
+    <string name="qrqcode_doors5">《便签版》</string>
+    <string name="qrqcode_price5">2元/版(10枚)</string>
+    <string name="check_add_goods">请添加购买商品</string>
+    <string name="pay_resulting">支付结果确认中</string>
+    <string name="pay_result_defat">支付失败</string>
+    <string name="check_weixin">检测到您未安装微信客户端或者版本较低</string>
+    <string name="buy_point_num">请先选择购买积分数量</string>
+    <string name="money_error">金额错误</string>
+    <string name="buy_score_success">积分购买成功</string>
+    <string name="buy_point_title1">充值80积分</string>
+    <string name="buy_point_body1">充值8元赠送80积分</string>
+    <string name="buy_point_title2">充值200积分</string>
+    <string name="buy_point_body2">充值18元赠送200积分</string>
+    <string name="buy_point_title3">充值350积分</string>
+    <string name="buy_point_body3">充值28元赠送350积分</string>
+    <string name="point_deteal">积分详情</string>
+    <string name="nonelogin">账号未登录</string>
+    <string name="delete_success">删除成功</string>
+    <string name="setting_success">设置成功</string>
+    <string name="getattaching">注：文件下载中</string>
+    <string name="send">发送</string>
+    <string name="check_telephonenumber">请正确输入有效号码</string>
+    <string name="check_number">请输入您的手机号</string>
+    <string name="getsms_code">正在获取短信验证码，请稍后...</string>
+    <string name="reset_sms_code">正在注册，请稍后...</string>
+    <string name="input_smscode">请输入验证码</string>
+    <string name="input_passward">请输入密码</string>
+    <string name="check_passward">密码必须是6-20位</string>
+    <string name="again_passward">请输入重复密码</string>
+    <string name="check_again_passward">两次密码输入不一致</string>
+    <string name="again_send">重新发送</string>
+    <string name="again_get">重新获取</string>
+    <string name="please_getphone_code">请您接听来自021开头的验证电话</string>
+    <string name="again_login">重置密码成功,请重新登录账号</string>
+    <string name="jingxuan">精选</string>
+    <string name="faxian">发现</string>
+    <string name="wait_open">即将开启</string>
+    <string name="gala">旮旯</string>
+    <string name="check_attachs_num">最多只能添加9个附件</string>
+    <string name="completes">完成</string>
+    <string name="huizhi_passward">请绘制手势密码</string>
+    <string name="shoushi_passward_enter">手势密码正确</string>
+    <string name="huizhi_new_passward">手势密码正确,请绘制新手势密码</string>
+    <string name="shoushi_passward_error">手势密码错误</string>
+    <string name="huizhi_again_passward">请再次绘制手势密码</string>
+    <string name="not_same_passward">两次手势密码不相同，请重新绘制！</string>
+    <string name="shoushi_set_defalt">设置失败，重新绘制！</string>
+    <string name="longin_ing">正在登录，请稍后...</string>
+    <string name="impower_nagative">授权已取消</string>
+    <string name="impower_default">授权失败</string>
+    <string name="sign">签到</string>
+    <string name="com_ziliao">完善资料</string>
+    <string name="everyday_sign">每日签到</string>
+    <string name="completion_of_task">任务完成</string>
+    <string name="already_signed_in">已签到</string>
+    <string name="daily_share">每日分享</string>
+    <string name="share_the_failure">分享失败</string>
+    <string name="share_to_cancel">分享取消</string>
+    <string name="limit_video_time">视频录制时间不能少于3秒</string>
+    <string name="limit_video_primiss">无法获取摄像头权限,请检查是否已打开摄像头权限!</string>
+    <string name="choose">选择</string>
+    <string name="nagative">取消</string>
+    <string name="no_delete_object">无删除对象</string>
+    <string name="nickname">姓名/昵称不能为空</string>
+    <string name="mdf_psw_success">密码修改成功</string>
+    <string name="from_file_images">从相册选取</string>
+    <string name="from_file_creamer">拍照</string>
+    <string name="sent">已发送</string>
+    <string name="wait_sent">待发送</string>
+    <string name="local">本地</string>
+    <string name="collect">收藏</string>
+    <string name="disbursements">实付款:￥</string>
+    <string name="new_add_address">请添加收货地址</string>
+    <string name="pay_result">支付结果确认中</string>
+    <string name="payment_failed">支付失败</string>
+    <string name="yuan">元</string>
+    <string name="qr_code_to_buy">二维码购买</string>
+    <string name="pay_qr_success">支付成功,感谢您的惠顾，我们将在一个工作日内寄出</string>
+    <string name="wrong_amount">金额错误</string>
+    <string name="check_drawer_null">抽屉信息为空，不能预览，请重试</string>
+    <string name="qr_dialog_title1">二维码已成功生成，您可以在创建</string>
+    <string name="qr_dialog_text1">完抽屉后将此二维码和朋友进行分享</string>
+    <string name="qr_dialog_title2">二维码已成功生成，您可以保存在</string>
+    <string name="qr_dialog_text2">本地并将此二维码和朋友进行分享</string>
+    <string name="drawer_shop">抽屉小店挑选精美二维码</string>
+    <string name="scanning_to_create">扫描创建</string>
+    <string name="login_immediately">立即登录</string>
+    <string name="registration_failed">注册失败，请重试</string>
+    <string name="registration_successful">注册成功</string>
+    <string name="registrationing">正在注册，请稍后...</string>
+    <string name="open_gesture_lock">开启手势锁</string>
+    <string name="close_gesture_lock">关闭手势锁</string>
+    <string name="none_gesture_psd">没有设置密码，请设置密码</string>
+    <string name="remind_the_class_template">提醒类模板</string>
+    <string name="blessing_of_class_template">祝福类模板</string>
+    <string name="emergency_class_template">应急类模板</string>
+    <string name="love_class_template">表白类模板</string>
+    <string name="inform_the_class_template">通知类模板</string>
+    <string name="choose_the_template">根据场景选择模板</string>
+    <string name="check_the_network">请检查网络</string>
+    <string name="the_remaining_points">剩余积分:</string>
+    <string name="interval">间隔</string>
+    <string name="day">天</string>
+    <string name="transmitting_immediately">立即发送</string>
+    <string name="question_null">加密问题不能为空</string>
+    <string name="answer_null">加密答案不能为空</string>
+    <string name="choose_person_book">请选择发送方式与联系人</string>
+    <string name="what_isgala">什么是旮旯？</string>
+    <string name="text_gala">　【旮旯】是一个将抽屉信息公开展示的平台。在这里可与大家分享你的故事和秘密。 由主界面进入。</string>
+    <string name="interval_time">请填写发送间隔时间</string>
+    <string name="sent_deteal_time">请填写发送具体时间</string>
+    <string name="check_infot_time">发送时间必须大于当前时间</string>
+    <string name="check_mail_sent_time">邮寄方式发送时间必须大于24小时。</string>
+    <string name="check_mail_sent_time_none">邮寄方式发送时间必须大于24小时,不能选择立即发送</string>
+    <string name="your_lack_of_integration">您的积分不足!</string>
+    <string name="check_login">账号未登录</string>
+    <string name="mark">分</string>
+    <string name="drawer_create_success">创建成功，您可以在我的抽屉里，查询到您刚刚创建的抽屉。</string>
+    <string name="drawer_update_success">更新成功，您可以在我的抽屉里，查询到您所更新的抽屉。</string>
+    <string name="weixin_frends_or_quan">您选择发送到朋友圈还是微信好友?</string>
+    <string name="circle_of_friends">朋友圈</string>
+    <string name="wechat_friends">微信好友</string>
+    <string name="fill_in_the_number">填写短信号码</string>
+    <string name="sms">短信:</string>
+    <string name="fill_in_the_voice_number">填写语音号码</string>
+    <string name="phone">电话:</string>
+    <string name="check_email">填写E-mail(40字内)</string>
+    <string name="email">邮件:</string>
+    <string name="fill_in_the_postal_address">填写邮政地址</string>
+    <string name="mail">邮寄:</string>
+    <string name="add_edemail">您已经添加过此邮件</string>
+    <string name="input_cosser_phone">请输入正确电话号码</string>
+    <string name="add_er_person">您已经添加过此联系人</string>
+    <string name="enter_the_mailing_address">请输入邮寄地址</string>
+    <string name="alredy_enter_the_mailing_address">您已经添加过此邮政地址</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_defid_wx">发送失败,您的抽屉将不会再朋友圈显示</string>
+    <string name="share_from_drawer">来自爱抽屉的分享</string>
+    <string name="gei">给</string>
+    <string name="send_one_drawer">发送了一条爱抽屉消息</string>
+    <string name="send_defid_friends">发送失败,您的朋友将不会收到此条消息</string>
+    <string name="the_current_cache">当前缓存</string>
+    <string name="remove">清除</string>
+    <string name="error_video_file">错误的视频文件</string>
+    <string name="big_video_file">视频文件过大</string>
+    <string name="preview">预览</string>
+    <string name="save_local">保存本地</string>
+    <string name="save">保存</string>
+    <string name="compelte_create">完成创建</string>
+    <string name="share_to">分享给Ta</string>
+    <string name="check_input_title">请输入标题</string>
+    <string name="check_input_cotent">请输入内容</string>
+    <string name="check_input_from">请填写署名</string>
+    <string name="content_length_big">内容超过字数上限</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_defait">保存失败</string>
+    <string name="giveup_video">您有视频正在处理中，是否放弃？</string>
+    <string name="img_save_deift">图片保存失败</string>
+    <string name="play_stop_ing">请停止播放后再进行操作</string>
+    <string name="the_attach_error">该附件存在异常</string>
+    <string name="complete">完成</string>
+    <string name="check_question_answer_input">请检查问题与答案是否正确输入</string>
+    <string name="image">图片</string>
+    <string name="video">视频</string>
+    <string name="audio">音频</string>
+    <string name="check_input_invtime">请输入间隔时间</string>
+    <string name="check_input_invtime_num">间隔天数只能是数字</string>
+    <string name="check_time365">只能在1到365天之内</string>
+    <string name="are_you_exit">确定要退出抽屉?</string>
+    <string name="exit_login">已经退出登录</string>
+    <string name="name">姓名</string>
+    <string name="report_the_content">举报该内容?</string>
+    <string name="copy_success">复制成功</string>
+    <string name="the_drawer_for">当前抽屉数:</string>
+    <string name="there_is_no_more_data">没有更多数据了</string>
+    <string name="collection_of_success">收藏成功</string>
+    <string name="uncollection_of_success">取消收藏成功</string>
+    <string name="report_success">举报成功</string>
+    <string name="not_well_known">未知名</string>
+    <string name="video_file_load">请选择您上传的视频文件</string>
+    <string name="failed_to_read_file">读取文件失败</string>
+    <string name="sure_delete_drawer">确定删除已选抽屉？</string>
+    <string name="whether_to_activate_the_drawer">是否激活该抽屉?</string>
+    <string name="the_attachment_has_been_deleted">该附件已删除</string>
+    <string name="none_video">没有视频文件</string>
+    <string name="sign_success">签到成功</string>
+    <string name="creamer">拍照</string>
+    <string name="camera_shooting">摄像</string>
+    <string name="size">大小</string>
+    <string name="colour">颜色</string>
+    <string name="wechat_circle_of_friends">微信朋友圈</string>
+    <string name="sina_microblog">新浪微博</string>
+    <string name="qq_friends">QQ好友</string>
+    <string name="qr_code">二维码</string>
+    <string name="report">举报</string>
+    <string name="copylink">复制链接</string>
+    <string name="users_to_set_the_problem_of_encryption">用户设置了问题加密</string>
+    <string name="numx">数量:x</string>
+    <string name="still">还有</string>
+    <string name="days_to_send">天发送</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="surplus">剩余</string>
+    <string name="markread">已读</string>
+    <string name="delivery">送达</string>
+    <string name="failure">失败</string>
+    <string name="about_ours">关于我们</string>
+    <string name="about_weixin">微信：i-drawer</string>
+    <string name="about_sinna">微博：爱抽屉-官微</string>
+    <string name="about_net">官网：www.i-drawer.com</string>
+    <string name="new_address">新建收货地址</string>
+    <string name="contactername">收货人姓名</string>
+    <string name="address_phone">手机号码</string>
+    <string name="postalcode">邮政编码</string>
+    <string name="provinces_city_area">省.市.区</string>
+    <string name="deteal_address">详细地址</string>
+    <string name="access_to_mobile">获取手机联系人</string>
+    <string name="please_enter_the_keywords">请输入关键字</string>
+    <string name="advice_text">请在此留下您的宝贵意见!</string>
+    <string name="other_contact_information">其他联系方式</string>
+    <string name="hourss">24小时客服QQ:  1929596617</string>
+    <string name="hourss_phone">24小时客服电话:  028-64684980</string>
+    <string name="weixin_public">微信公众号:  i-drawer</string>
+    <string name="adcice_btn">是的 我要发消息给客服</string>
+    <string name="drawer_is_shop">抽屉小店</string>
+    <string name="to_settle_accounts">去结算</string>
+    <string name="integral_to_buy">积分购买</string>
+    <string name="alipay">支付宝</string>
+    <string name="wechat_pay">微信支付</string>
+    <string name="will_love_drawer">请将爱抽屉二维码置入取景框中</string>
+    <string name="local_image">本地图片</string>
+    <string name="top_up">充值</string>
+    <string name="default_shipping_address">默认收货地址</string>
+    <string name="consignee">收货人</string>
+    <string name="delete_the_shipping_address">删除收货地址</string>
+    <string name="set_to_the_default_address">设置为默认地址</string>
+    <string name="connection_fails">连接失败</string>
+    <string name="check_your_device">请检查您的设备是否联网</string>
+    <string name="reload_the">重新加载</string>
+    <string name="return_back">返回</string>
+    <string name="editor">编辑</string>
+    <string name="create_qr_code">创建二维码内容</string>
+    <string name="input_title_cotent">点击输入标题(必填)</string>
+    <string name="input_your_wants_to_say">输入你想要说的话</string>
+    <string name="determine_the_generated">确定生成</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="confirm_password">确认密码：</string>
+    <string name="common_problems">常见问题</string>
+    <string name="photo_album">相册</string>
+    <string name="task">任务</string>
+    <string name="existing_integral">现有积分</string>
+    <string name="pointadd">积分+1</string>
+    <string name="manager_address">管理收货地址</string>
+    <string name="all_chooese">全选</string>
+    <string name="number">手机号</string>
+    <string name="code_yanzheng">验证码：</string>
+    <string name="nicheng">昵称</string>
+    <string name="nicname_mdf">姓名/昵称(20字内)</string>
+    <string name="persons_image">个人头像</string>
+    <string name="edit_content">编辑内容</string>
+    <string name="title">标题</string>
+    <string name="signature">署名</string>
+    <string name="recipients">收件人</string>
+    <string name="content">内容</string>
+    <string name="start_the_recording">开始录音</string>
+    <string name="way_to_send">发送方式</string>
+    <string name="sms_stand">短信:</string>
+    <string name="phone_seny">电话:</string>
+    <string name="send_time">发送时间</string>
+    <string name="encryption_to_send">加密发送</string>
+    <string name="encryption_problem">加密问题：</string>
+    <string name="encrypt_the_answer">加密答案：</string>
+    <string name="sent_to_the_corners">发送到旮旯</string>
+    <string name="consumption">消费:</string>
+    <string name="point">分</string>
+    <string name="remaining_points">剩余积分:0分</string>
+    <string name="delivery_confirmation">确认发送</string>
+    <string name="access">收件人（非必填）</string>
+    <string name="input_cotent">请输入内容</string>
+    <string name="fill_in_the_order">填写订单</string>
+    <string name="the_default">(默认)</string>
+    <string name="none_address">尚未添加地址，在这里添加收货地址吧</string>
+    <string name="amount_of_goods">商品金额</string>
+    <string name="the_freight">运费</string>
+    <string name="qr_code_checkout">二维码收银台</string>
+    <string name="the_order_amount">订单金额</string>
+    <string name="save_the_photo_album">保存到相册</string>
+    <string name="beat_or_save">一拍即存</string>
+    <string name="gently_start_scanning">轻轻一点开始扫描</string>
+    <string name="qr_code_generated">二维码生成处</string>
+    <string name="registration_is_representative">注册即代表同意</string>
+    <string name="love_drawer_user_agreement">爱抽屉用户协议</string>
+    <string name="modify_the_account_password">修改账号密码</string>
+    <string name="modify_the_gesture_lock">修改手势锁</string>
+    <string name="share_the_way">分享方式</string>
+    <string name="input_question">请填写加密问题</string>
+    <string name="input_answer">请填写加密答案</string>
+    <string name="shaer_togalka">发送到旮旯</string>
+    <string name="interval_to_send">间隔发送</string>
+    <string name="interval_to_day">间隔天数</string>
+    <string name="time">时间</string>
+    <string name="send_time_zhu">注:设置间隔时间后,该抽屉会在你间隔日期后发送</string>
+    <string name="at_any_given_time">在指定时间发送</string>
+    <string name="specify_a_time">指定时间</string>
+    <string name="zhidingtime">注:指定时间后,该抽屉会在你指定的时间发送给接收人</string>
+    <string name="log_out">退出登录</string>
+    <string name="template_type">模板类型</string>
+    <string name="input_wichat">微信:</string>
+    <string name="chooese_wechat">微信方式点击发送后再选择</string>
+    <string name="advice_hint">在此输入举报信息</string>
+    <string name="text_smail">小    </string>
+    <string name="textsmail1">较小</string>
+    <string name="text_standard">标准</string>
+    <string name="text_larger">较大</string>
+    <string name="text_maximum">最大</string>
+    <string name="text_priview">注:字体大小仅在预览中显示</string>
+    <string name="score_ngav">积分：</string>
+    <string name="goods_name">商品名称:</string>
+    <string name="commodity_description">商品描述:</string>
+    <string name="commodity_prices">商品价格:</string>
+    <string name="regiest">注册</string>
+    <string name="love">表白</string>
+    <string name="ji">应急</string>
+    <string name="remind">提醒</string>
+    <string name="info">通知</string>
+    <string name="zhufu">祝福</string>
+    <string name="zhizuo">制作</string>
+    <string name="start_to_experience">开始体验</string>
+    <string name="weixin">微信</string>
+    <string name="weixi_frends">朋友圈</string>
+    <string name="myphone">电话</string>
+    <string name="mysms">短信</string>
+    <string name="myemail">Email</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>
+    <string name="text_larger">较大</string>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_image_perview">ImagePerviewActivity</string>
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="ssdk_baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
+    <string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_tencentweibo">腾讯微博</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_facebook">Facebook</string>
+    <string name="ssdk_twitter">Twitter</string>
+    <string name="ssdk_renren">人人网</string>
+    <string name="ssdk_kaixin">开心网</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_sohumicroblog">搜狐微博</string>
+    <string name="ssdk_sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_neteasemicroblog">网易微博</string>
+    <string name="ssdk_douban">豆瓣</string>
+    <string name="ssdk_youdao">有道云笔记</string>
+    <string name="ssdk_evernote">印象笔记</string>
+    <string name="ssdk_linkedin">领英</string>
+    <string name="ssdk_googleplus">Google+</string>
+    <string name="ssdk_foursquare">FourSquare</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_pinterest">Pinterest</string>
+    <string name="ssdk_flickr">Flickr</string>
+    <string name="ssdk_tumblr">Tumblr</string>
+    <string name="ssdk_dropbox">Dropbox</string>
+    <string name="ssdk_vkontakte">VK</string>
+    <string name="ssdk_instagram">Instagram</string>
+    <string name="ssdk_yixin">易信</string>
+    <string name="ssdk_yixinmoments">易信朋友圈</string>
+    <string name="ssdk_mingdao">明道</string>
+    <string name="ssdk_kakaotalk">KakaoTalk</string>
+    <string name="ssdk_kakaostory">KakaoStory</string>
+    <string name="ssdk_line">Line</string>
+    <string name="ssdk_bluetooth">蓝牙</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_pocket">Pocket</string>
+    <string name="ssdk_instapaper">Instapaper</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="ssdk_facebookmessenger">Facebook Messenger</string>
+    <string name="ssdk_baidutieba">百度贴吧</string>
+    <string name="ssdk_laiwang">来往</string>
+    <string name="ssdk_laiwangmoments">来往动态</string>
+    <string name="ssdk_alipay">支付宝好友</string>
+
+    <string name="ssdk_share_to_baidutieba">分享到百度贴吧</string>
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_share_to_mingdao">分享到明道</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_finish">完成</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_oks_share_to">分享到</string>
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="ssdk_oks_list_friends">%s的朋友</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+    <string name="ssdk_oks_shake2share">摇晃手机！</string>
+    <string name="ssdk_oks_select_a_friend">请选择一个朋友</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="title_activity_deteal_drawer">DetealDrawerActivity</string>
+    <string name="listfooterview_normal">查看更多</string>
+    <string name="listfooterview_ready">松开载入更多</string>
+    <string name="title_activity_pay_code">PayCodeActivity</string>
+    <string name="title_activity_new_guide">NewGuideActivity</string>
+    <string name="title_activity_new_send_any">NewSendAnyActivity</string>
+    <string name="title_activity_new_select_style">NewSelectStyleActivity</string>
+    <string name="title_activity_pay_list">PayListActivity</string>
+    <string name="title_activity_new_qr_code">NewQrCodeActivity</string>
+    <string name="title_activity_time_select">TimeSelectActivity</string>
+    <string name="title_activity_my_head_image">MyHeadImageActivity</string>
+    <string name="title_activity_my_head">MyHeadActivity</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="title_activity_qr_dialog">QrDialogActivity</string>
+    <string name="title_activity_wb_local">WbLocalActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_web_image">WebImageActivity</string>
+    <string name="title_activity_video_list">VideoListActivity</string>
+</resources>

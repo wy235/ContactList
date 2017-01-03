@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_add_iv"
+            android:src="@drawable/sendway_delete_select" />
+
+        <TextView
+            android:id="@+id/input_hint_tv"
+            android:layout_width="@dimen/input_chooseway_hint_width"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="20px"
+            android:text="@string/input_wichat"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/input_et"
+            style="@style/style_frame_edit"
+            android:textColorHint="@color/lightgray"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:focusable="false"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:text="@string/chooese_wechat"
+            android:layout_marginLeft="3dip"
+            android:cursorVisible="true" />
+
+       <ImageView
+            android:id="@+id/input_book"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phonebook"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/whiteline" />
+
+</LinearLayout>

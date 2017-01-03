@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="thirty_transparent_black">#4d000000</color><!-- 30%透明 -->
+    <color name="twenty_transparent_black">#33000000</color><!-- 20%透明 -->
+    <color name="fifteen_transparent_black">#26000000</color><!--15%透明 -->
+    <color name="ten_transparent_black">#0A000000</color><!--10%透明 -->
+    <color name="five_transparent_black">#07000000</color><!--5%透明 -->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="darkgreen">#06e846</color>
+    <color name="green">#22f25d</color>
+    <color name="home_textcolor">#95999c</color>
+    <color name="orange">#FFFF5800</color>
+    <color name="light_orange">#f99970</color>
+    <color name="darkgray">#FF4f4f4f</color>
+    <color name="lightgray">#DDDDDD</color>
+    <color name="gray">#FF808080</color>
+    <color name="red">#FFFF0000</color>
+    <color name="light_blue">#ff0099db</color>
+    <color name="dark_blue">#ff0572a1</color>
+    <color name="divider_gray">#80c8c8c8</color>
+    <color name="light_bg">#EFEFEF</color>
+    <color name="v_select_blue">#48BBE7</color>
+    <color name="light_dark_bg">#E7E7E7</color>
+    <color name="tab_black_bg">#2B2B2B</color>
+    <color name="main_blue">#33B5E5</color>
+    <color name="main_blue_press">#30aad7</color>
+    <color name="text_211_bg">#05dc05</color>
+    <color name="text_985_bg">#E60515</color>
+    <color name="list_select_bg">#D5D5D5</color>
+    <color name="window_bg">#F0F0F0</color>
+    <color name="search_hint">#e2dede</color>
+    <color name="icon_blue">#138fd7</color>
+    <color name="tab_strip_text">#1b1b1b</color>
+    <color name="main_tab_blue">#4180aa</color>
+    <color name="player_bg">#2f2f2f</color>
+    <color name="player_gray">#bdbbbb</color>
+    <color name="player_dark_gray">#3c3b3b</color>
+    <color name="player_blue">#3b81aa</color>
+    <color name="player_light_blue">#5bbffa</color>
+    <color name="arc_red">#ffe2231a</color>
+    <color name="arc_dark_red">#ff510209</color>
+    <color name="accent">#FFC107</color>
+    <color name="primary">#F44336</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="primary_text">#212121</color>
+    <color name="header_gray">#54000000</color>
+    <color name="highlight">#f3f3f3</color>
+    <color name="enter">#70A062</color>
+    <color name="back">#E98999</color>
+    <color name="translucent_bg">#80000000</color>
+    <color name="dia">#ffffffff</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="trans">#9000</color>
+    <color name="aaa">#cfE9E9E9</color>
+    <color name="aab">#00AAAAAA</color>
+    <color name="aac">#3fE9E9E9</color>
+    <color name="logincolor">#ed9519</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+    <color name="text_color">#fb8c30</color>
+    <color name="userdrawer_color">#c8cde1</color>
+    <color name="wecomebar">#bfded9</color>
+    <color name="mainbar">#5173ed</color>
+    <color name="yidu">#20dba8</color>
+    <color name="songda">#ffa23e</color>
+    <color name="shibai">#ef6969</color>
+    <!-- 扫描结束时扫描框周围的颜色 -->
+    <color name="result_view">#b0000000</color>
+    <!-- 扫描时扫描框周围的颜色 -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 扫描时小黄点的颜色 -->
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="title_color">#6BC600</color>
+    <color name="table_cotent">#aaaaaa</color>
+    <color name="table_title">#464646</color>
+    <color name="drawer_text">#fb8c30</color>
+
+    <color name="gridtext1">#505050</color>
+    <color name="gridback1">#fdfdfd</color>
+    <color name="gridtext2">#79390b</color>
+    <color name="gridback2">#fff77d</color>
+    <color name="gridtext3">#a55578</color>
+    <color name="gridback3">#fff0c8</color>
+    <color name="gridtext4">#5f6e6e</color>
+    <color name="gridback4">#daebf1</color>
+    <color name="gridtext5">#907b33</color>
+    <color name="gridback5">#f1fdba</color>
+    <color name="gridtext6">#767676</color>
+    <color name="gridback6">#e5e5e5</color>
+    <color name="gridtext7">#9c8712</color>
+    <color name="gridback7">#fbffd9</color>
+    <color name="gridtext8">#ffffff</color>
+    <color name="gridback8">#ff8831</color>
+    <color name="gridtext9">#a55578</color>
+    <color name="gridback9">#ffaa91</color>
+    <color name="gridtext10">#ffffff</color>
+    <color name="gridback10">#78878c</color>
+    <color name="gridtext11">#ffffff</color>
+    <color name="gridback11">#3ba77b</color>
+    <color name="gridtext12">#ffffa6</color>
+    <color name="gridback12">#9f2389</color>
+    <color name="gridtext13">#fff8bc</color>
+    <color name="gridback13">#987822</color>
+    <color name="gridtext14">#e6e6d7</color>
+    <color name="gridback14">#3e3e3e</color>
+    <color name="navpage">#FFE1E8EB</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+
+    <color name="tc1">#78878c</color>
+    <color name="tc2">#fef8eb</color>
+    <color name="tc3">#fdebe3</color>
+    <color name="tc4">#e6e8fb</color>
+    <color name="tc5">#b9dfe2</color>
+    <color name="tc6">#d9ece6</color>
+    <color name="tc7">#f2e5c2</color>
+    <color name="tc8">#eaaeca</color>
+    <color name="tc9">#e7b77a</color>
+    <color name="tc10">#e8b4a1</color>
+    <color name="tc11">#84c6ea</color>
+</resources>
